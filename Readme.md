@@ -5,6 +5,7 @@ This directory contains the dotfiles for my system
 ## Requirements
 
 Ensure you have the following installed on your system
+**These are for debian based**
 
 ### Git
 
