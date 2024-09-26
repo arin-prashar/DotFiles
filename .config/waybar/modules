@@ -499,7 +499,8 @@
 	"max-length": 24,
 	"format-icons": [
 		"󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
-	]
+	],
+	"on-right-click":"kitty nmtui"
 },
 "power-profiles-daemon": {
   "format": "{icon}",
@@ -587,6 +588,7 @@
 "tray": {
 	"icon-size": 18,
 	"spacing": 4,
+	"on-right-click":"kitty nmtui"
 },
 "wireplumber": {
 	"format": "{icon} {volume} %",
@@ -599,6 +601,7 @@
 		"", "", "󰕾", ""
 	],
 },
+
 "wlr/taskbar": {
 	"format": "{icon} {name}",
 	"icon-size": 16,
@@ -612,6 +615,7 @@
 		"kitty"
 		],
 },
+
 "custom/cycle_wall": {
 	"format": " ",
 	"on-click": "~/.config/hypr/UserScripts/WallpaperSelect.sh",

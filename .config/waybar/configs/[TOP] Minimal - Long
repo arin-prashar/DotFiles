@@ -32,8 +32,9 @@
 	],
 
 "modules-right": [
+	"custom/seprator#blank_2",
 	"network#speed",
-	"custom/separator#blank_2",
+	"custom/seprator#blank_2",
 	"group/motherboard",
 	"custom/separator#blank_2",
 	"group/laptop",

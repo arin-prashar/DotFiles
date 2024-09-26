@@ -82,12 +82,13 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' meno no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
+zstyle ':fzf-tab:complete:cp:*' fzf-preview 'ls --color $realpath'
 
 # Alias
 alias cat='batcat'
 alias ls='eza --color --hyperlink'
 alias la='eza -a --color --hyperlink'
-alias ll='eza -l --color ---hyperlink'
+alias ll='eza -l --color --hyperlink'
 alias mindustry="java -jar /home/dkg/Games/Mindustry.jar"
 alias mc="java -jar /home/dkg/Games/TLauncher*.jar"
 alias grep='grep --color=auto'
@@ -105,6 +106,9 @@ fi
 
 export PATH="/home/dkg/.local/bin:$PATH"
 export BAT_THEME="Dracula"
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=im=ibus
+export QT_IM_MODULE=ibus
 
 eval "$fzf"
 eval "$(zoxide init zsh --cmd cd)"
